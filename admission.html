@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Admission Application</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="admission.html">Admission</a>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <form id="admissionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="program">Program:</label>
+            <select id="program" name="program">
+                <option value="BSc">BSc</option>
+                <option value="BA">BA</option>
+                <option value="BCom">BCom</option>
+            </select><br>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Admission Portal</p>
+    </footer>
+    </center>
+</body>
+</html>
+
+
+
